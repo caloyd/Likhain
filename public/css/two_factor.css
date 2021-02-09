@@ -1,0 +1,22 @@
+.two-factor{
+    width: 350px;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+.two-fa-box{
+    text-align: center;
+}
+.btn-2fa{
+    margin-top: 10px;
+}
+.enter-code{
+    margin-top: 15px;
+}
+.bg-footer{
+    background: #203354;
+}
+.nav-icon {
+    font-size: 27px;
+}
+

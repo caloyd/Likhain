@@ -1,0 +1,178 @@
+/** MAIN PROFILE*/
+.user-icon{
+    width: 110px;
+    height: 110px;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+.applicant-pic{
+    width: 220px;
+    height: 220px;
+    cursor: pointer;
+}
+.img-text{
+    color: black;
+    text-shadow: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#imgHover .img-text{
+    position:relative;
+    bottom:80px;
+    left:0px;
+    visibility:hidden;
+}
+#imgHover:hover .img-text{
+    visibility:visible;
+}
+
+.card-applicant{
+    background-color: rgba(245, 245, 245, 0.4);
+    border-color: #3C8DBC;
+}
+.btn-edit{
+    color: white;
+    border-color: #3C8DBC;
+}
+.btn-edit:hover{
+    color: white;
+}
+/* end MAIN PROFILE */
+
+/* EDIT PROFILE */
+.nav-link{
+    color:black;
+}
+.skills-title{
+    margin-top:10px;
+}
+.form-exp{
+    padding: 10px;
+}
+.resume-desc{
+    text-align: center;
+    padding: 50px;
+}
+.edit-photo{
+    background-color: rgba(245, 245, 245, 0.4);
+}
+.edit-icon{
+    width: 115px;
+}
+.drag-drop{
+    border: 1px solid black;
+    padding: 30px;
+}
+.btn-save{
+    margin: 5px;
+}
+.btn-cancel{
+    margin: 5px;
+}
+.b-1{
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 8px;
+}
+.p-2-5{
+    padding: 2.5rem;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.resizable-none{
+    resize: none;
+}
+.plf{
+    padding-right: 0px;
+}
+.SumoSelect{
+    width: 212px!important;
+}
+.pointer{
+    cursor: pointer;
+}
+.text-blue{
+    color: rgba(17, 82, 221, 0.87);
+}
+.small {
+    height: 20px;
+    overflow:hidden;
+}
+.big {
+    height: auto;
+}
+.shw-info{
+    background-color: rgba(245, 245, 245, 0.4);
+}
+.edt-btn{
+    display: none;
+}
+.fs-8{
+    margin-left: 15px;
+    font-size: 12px;
+}
+.tagify{
+    --tags-border-color: none!important;
+}
+.bg-tags{
+    color: rgb(54, 54, 54);
+    background: #eef0ed;
+    border-color: #eef0ed;;
+}
+.mb-4px{
+    margin-bottom: 4px;
+}
+
+.bg-none{
+    background: none;
+}
+
+.btn-secondary-modified{
+    background: #e8e8e8;
+    color: black;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator{
+    -webkit-appearance: none;
+    display: none;
+}
+.bg-footer{
+    background: #203354;
+}
+.footer-2{
+    height: 55px;
+    bottom: 0;
+    width: 100%;
+}
+.nav-icon {
+    font-size: 27px;
+}
+
+.clicked_white, .white_bg
+{
+ background-color: white !important;
+}
+.gray_bg{
+    background-color: rgba(0, 0, 0, 0.05) !important;
+  }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.icon_applicant {
+    background-color: green;
+}
+.unviewed {
+    background-color: rgba(0,0,0,.05) !important;
+}

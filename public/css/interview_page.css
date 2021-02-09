@@ -1,0 +1,72 @@
+
+.upcoming{
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 1px;
+    padding: 10px;
+}
+.interview-desc{
+    border-left: 5px solid gray;
+    padding: 10px;
+}
+.bg-footer{
+    background: #203354;
+}
+.nav-icon {
+    font-size: 27px;
+}
+.btn-outline-success {
+    color: #fff;
+    background-color: #38c172;
+}
+
+.btn-outline-success:hover {
+    color: #38c172;
+    background-color: #fff;
+    border-color: #38c172;
+}
+.btn-outline-primary {
+    color: #fff;
+    background-color: #3490dc;
+}
+
+.btn-outline-primary:hover {
+    color: #3490dc;
+    background-color: #fff;
+    border-color: #3490dc;
+}
+.btn-outline-danger {
+    color: #fff;
+    background-color: #e3342f;
+}
+
+.btn-outline-danger:hover {
+    color: #e3342f;
+    background-color: #fff;
+    border-color: #e3342f;
+}
+
+ /* .marked-date{
+    margin-top: 50px;
+    background-color:#0275D8;
+    text-align: center;
+    padding: 5px;
+    border-radius:2px;
+    color: white;
+}
+.interviewer{
+    background-color: #727070;
+    height: 600px;
+}
+.applicant{
+    background-color: lightgrey;
+}
+.applicant-call{
+    background-color: white;
+} */
+/* Reschedule Modal */
+/* .modal-header{
+    background-color: #29a744;
+    color: white;
+} */
+/* end Reschedule Modal */

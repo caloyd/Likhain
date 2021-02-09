@@ -1,0 +1,504 @@
+.navbar {
+    transition: all 0.4s ease-in-out;
+}
+.navbar-brand {
+    padding: 0 15px;
+    height: 85px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.shrink {
+    -webkit-box-shadow: -1px 9px 10px -6px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: -1px 9px 10px -6px rgba(0, 0, 0, 0.17);
+    box-shadow: -1px 9px 10px -6px rgba(0, 0, 0, 0.17);
+    background-color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-weight: lighter;
+    transition: all 0.4s ease-in-out;
+}
+.nav-link {
+    font-weight: lighter;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link.login-register {
+    margin-right: 10px;
+    padding: 10px 15px 8px 15px;
+    color: black;
+    font-weight: 500;
+}
+.nav-item .login-register:hover {
+    background-color: #3490dc;
+    color: white !important;
+    border-radius: 20px;
+}
+.navbar-brand > img {
+    width: 80%;
+    /* padding: 0px 15px; */
+    margin-top: -10px;
+}
+
+.navbar-light .navbar-nav .nav-link.btn-employer {
+    padding: 10px 15px 8px 15px;
+    background-color: #3490dc;
+    font-weight: lighter;
+    color: white !important;
+    border-radius: 20px;
+}
+.btn-employer:hover {
+    opacity: 0.7;
+}
+.ellipse-big {
+    opacity: 0.8;
+    position: absolute !important;
+    top: 0;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pt-256 {
+    padding-top: 256px;
+}
+.pt-120 {
+    padding-top: 120px;
+}
+.pt-8 {
+    padding-top: 8px;
+}
+.lp-banner-gradient {
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(255, 227, 167),
+        white
+    );
+}
+.mb-315 {
+    margin-bottom: 315px;
+}
+.mb-70 {
+    margin-bottom: 10px;
+    height: 60vh;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.txt-24 {
+    font-size: 24px;
+}
+.circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.mt-10 {
+    margin-top: 0.75rem;
+}
+.mt-30 {
+    margin-top: 100px;
+}
+.procedure-icon {
+    font-size: 70px;
+    padding-top: 26px;
+    color: white;
+}
+
+/* CIRCLE COLORS */
+.green-blueish {
+    background: #8fd5d5;
+}
+.blueish {
+    background: #6aa3df;
+}
+.brownish {
+    background: #feb152;
+}
+/* end CIRCLE COLORS */
+
+/* COUNT */
+.count-gradient {
+    height: 200px;
+    background-image: linear-gradient(
+        to bottom right,
+        rgb(255, 227, 167),
+        white
+    );
+    opacity: 80%;
+}
+.mbot-n1 {
+    margin-bottom: -1.5rem;
+}
+.pt-60 {
+    padding-top: 60px;
+}
+.bg-cyan {
+    background: #a5dcdc;
+}
+/* end COUNT */
+
+/* FOOTER */
+.bg-footer {
+    background: #203354;
+}
+.footer-content {
+    color: white;
+}
+.footer-content-title {
+    color: white;
+}
+.footer-content:hover {
+    color: #3490dc;
+}
+.white {
+    background-color: white;
+}
+
+.toppo-0 {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+/* end FOOTER */
+
+/* SignUp */
+.mt-40 {
+    margin-top: 100px;
+    margin-left: 80px;
+    padding: 15px;
+}
+.applicant {
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #000000;
+    padding: 15px;
+    width: 20rem;
+    box-shadow: -15px 14px 0px 1px rgba(254, 216, 168, 1);
+    margin-top: 100px;
+}
+.loginApplicant {
+    color: blue;
+}
+.loginEmployer {
+    color: blue;
+}
+.show-pass-employer{
+    position: absolute;
+    top: 11px;
+    left: 265px;
+    display: inline-block;
+    z-index: 2;
+    cursor: pointer;
+}
+a .forgot-pass{
+    margin-top: 10px;
+}
+.employer {
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #000000;
+    padding: 15px;
+    width: 20rem;
+    box-shadow: 15px 14px 0px 1px rgba(106, 163, 223, 1);
+    margin-top: 100px;
+}
+.cstm-btn {
+    background-color: #0081fa;
+    margin-top: 10px;
+}
+.cstm-btn:hover {
+    background-color: #1e8ff8;
+    border-color: #1e8ff8;
+}
+.cstm-btn-applicants {
+    background-color: #8fd5d5;
+    border-color: #8fd5d5;
+    margin-top: 10px;
+}
+.cstm-btn-applicants:hover {
+    background-color: #80d0d0;
+    border-color: #80d0d0;
+}
+.or-middle {
+    width: 50px;
+    margin-bottom: -10px;
+}
+.login-link {
+    color: #0081fa;
+}
+/* end SIGNUP*/
+.show-pass-admin{
+    position: absolute;
+    top: 11px;
+    left: 265px;
+    display: inline-block;
+    z-index: 2;
+    cursor: pointer;
+}
+/*LOGIN APPLICANT MODAL*/
+.show-pass{
+    position: absolute;
+    top: 11px;
+    left: 235px;
+    display: inline-block;
+    z-index: 10;
+    cursor: pointer;
+}
+.input-group .pass{
+    border-top-right-radius: 1 !important;
+    border-bottom-right-radius: 1 !important;
+}
+
+.modal-dialog{
+    width: 350px!important;
+}
+.employer-btn {
+    background: transparent;
+    color: black;
+}
+.employer-btn:hover {
+    background-color: #0081fa;
+}
+/* .login-modal {
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+.modal-footer {
+    border: none;
+    padding-bottom: 3rem;
+}
+.custom-btn {
+    border-radius: 7px;
+    margin-left: -15px;
+    background-color: #3494dc;
+    border-color: #3494dc;
+    padding: 5px 105px 5px 105px;
+    font-size: 16px;
+    text-align: center;
+}
+.custom-btn:hover {
+    background-color: #348cdc;
+    border-color: #348cdc;
+}
+.orhr{
+    position: relative;
+}
+.omb_hrOr {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.omb_spanOr {
+	display: block;
+	position: absolute;
+    left: 50%;
+    bottom: -9px;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}
+/* FORGOT PASSWORD */
+/**End-Forgot-Password**/
+
+/*Button-Facebook*/
+.btn-facebook {
+    width: 82%;
+    margin-right: 28px;
+    color: white;
+    background-color: #3b5998;
+
+}
+.btn-facebook:hover {
+    background-color: #4f6dba;
+    color: white;
+}
+/*End-Button-Facebook*/
+.btn-password {
+    float: right;
+    font-size: 12px;
+    margin-top: -20px;
+    color: #0000EE;
+}
+.btn-password:hover{
+    opacity: 0.7!important;
+}
+/*end APPLICANT MODAL/
+
+/*SIGNUP FORM APPLICANT*/
+.fw-normal {
+    font-size: 12px;
+    font-weight: lighter !important;
+}
+.left-form-applicant {
+    background-color: #6ca2d7;
+    background-image: url(../img/landing_page/likhainLogo.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circleSignup {
+    width: 250px;
+    margin-top: -170px;
+    margin-left: 400px;
+}
+.circleSignup2 {
+    width: 260px;
+    margin-bottom: -170px;
+    margin-left: 1290px;
+}
+.likhainText {
+    color: white;
+    margin-top: 125%;
+    text-align: center;
+}
+.logo {
+    width: 50%;
+    margin-top: 5%;
+}
+.signup-applicant-form {
+    width: 80%;
+    margin-left: 100px;
+}
+/*end SIGNUP FORM APPLICANT*/
+/* SIGNUP FORM EMPLOYER*/
+.text-form {
+    text-align: center;
+    color: #707070;
+}
+.left-form-employer {
+    background-color: #6ca2d7;
+    background-image: url(../img/landing_page/likhainLogo.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+/*end SIGNUP FORM EMPLOYER*/
+
+/* LOGIN EMPLOYEE */
+.log-in{
+    margin-top:100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+}
+/*end LOGIN EMPLOYEE*/
+
+/* end FOOTER */
+
+/* FOOTER 2 */
+.footer-2 {
+    height: 55px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+/* end FOOTER 2 */
+
+/* JOB POSTS */
+.justify-end {
+    justify-content: flex-end;
+}
+.modified {
+    border-top: none;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.my-20 {
+    margin: 20px 0;
+}
+/* end JOB POSTS */
+
+/* JOB DETAILS */
+.mb-20 {
+    margin-bottom: 20px;
+}
+/* end JOB DETAILS */
+
+/* LANDING PAGE MODAL */
+.bg-blue {
+    background-color: #215d99 !important;
+}
+a.bg-dark:hover,
+a.bg-dark:focus,
+button.bg-dark:hover,
+button.bg-dark:focus {
+    background-color: #075088 !important;
+}
+.mh-modified {
+    margin-left:5.5rem;
+}
+/* end LANDING PAGE MODAL */
+
+/* ADVANCE SEARCH DROPDOWN */
+.btn-secondary-modified {
+    background: rgba(223, 222, 222, 0.664);
+    color: black;
+}
+
+.bg-tags {
+    background: rgba(240, 240, 240, 0.863);
+}
+/* end ADVANCE SEARCH DROPDOWN */
+#emp_container {
+    min-height: 100vh;
+}
+.arrow-btn {
+    background: #3490dc;
+    width: 26px;
+    height: 65px;
+    border-radius: 50px;
+}
+.arrow-btn i {
+    color: rgba(240, 240, 240, 0.863);
+    font-size: 27px;
+    line-height: 75px;
+    margin-top: 10px;
+    animation: bounce 2s infinite;
+}
+.arrow-btn a:hover {
+    text-decoration: none;
+}
+@media (max-width: 766px) {
+    #logo_landing {
+        display: none;
+    }
+    #heading1 {
+        text-align: center;
+        font-size: 6vw !important;
+    }
+    #heading2 {
+        font-size: 3vw !important;
+        text-align: center;
+    }
+    .count-gradient {
+        height: auto;
+    }
+    .count-gradient .row {
+        padding: 25px 0px !important;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .button_search {
+        margin-top: 10px !important;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    #heading2 {
+        font-size: 1.7vw !important;
+    }
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

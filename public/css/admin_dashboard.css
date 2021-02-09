@@ -1,0 +1,11 @@
+.bg-royal{
+    background: #38699A;
+    color: white;
+}
+
+.resizable-none{
+    resize: none;
+}
+.custom-table{
+    width: 100px;
+}

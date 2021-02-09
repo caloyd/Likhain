@@ -1,0 +1,30 @@
+.real-time{
+    font-weight: bold;
+    font-size: 3em;
+}
+.real-time-date{
+    font-size: 20px;
+}
+.card{
+    border: 1px solid black;
+    padding: 60px;
+    height: 500px; 
+}
+/* .card-real-time{
+    background-color: rgba(245, 245, 245, 0.4);
+    border: 0;
+} */
+.table-salary{
+    margin:auto;
+}
+.modal-header{
+    background-color: #39699a;
+    color: white;  
+}
+.resizable-none{
+    resize: none;
+}
+.bg-custom{
+    background-color: #38699A;
+    color: white;
+}

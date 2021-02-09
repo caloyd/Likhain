@@ -1,0 +1,22 @@
+.btn-save{
+    margin: 5px;
+}
+.btn-cancel{
+    margin:5px;
+}
+.btn-cancel:hover{
+    background-color: lightgrey;
+    border-color: lightgrey;
+}
+/* Employee Profile */
+.img-employer-profile{
+    width: 300px
+}
+.bg-footer{
+    background: #203354;
+}
+.nav-icon {
+    font-size: 27px;
+}
+
+/* end Employee Profile */
